@@ -1,0 +1,140 @@
+.title {
+  display: flex; 
+  align-items: center;
+  margin-left: 22px;
+}
+
+h1 {
+  font-family: "Jakarta-Bold";
+}
+
+.badge {
+  margin-left: 10px;
+  background-color: rgb(18, 18, 122);
+  color: white;
+  width: 27px;
+  height: 22px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+.mark {
+  margin-left: auto;
+  font-family: "Jakarta-Medium";
+  margin-right: 22px;
+  background: none;
+	color: grey;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  &:hover {color: rgb(18, 18, 122);
+}}
+
+.Class1 {
+  display: flex;
+  align-items: start;
+  margin: 10px;
+  padding: 16px;
+  padding-bottom: 5px;
+  background-color: rgb(243, 249, 255);
+}
+
+.Class2 {
+  display: flex;
+  align-items: start;
+  gap: 0.5 rem;
+  margin: 10px;
+  padding: 16px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 254, 254);
+}
+
+.profile--img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.post--text {
+  display: inline-flex;
+  font-family: "Jakarta-Medium";
+  margin-top: -15px;
+}
+
+.activity {
+  color: grey;
+}
+
+.time {
+  margin-top: -9px;
+  color: grey;
+  font-family: "Jakarta-Medium";
+}
+
+.unread {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 81, 0);
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.author {
+  font-family: "Jakarta-Bold";
+  text-decoration: none;
+  color: black;
+  &:hover {color: rgb(18, 18, 122);
+};
+&:focus {color: grey}
+}
+
+.activity--link {
+  font-family: "Jakarta-Bold";
+  text-decoration: none;
+  color: black;
+  &:hover {color: rgb(18, 18, 122);
+  }
+  &:focus {color: grey}
+}
+
+.a--PM {
+  text-decoration: none;
+}
+
+.privateMessage {
+  border: 1px solid rgb(177, 173, 173);
+  padding: 13px;
+  font-family: "Jakarta-Medium";
+  color: grey;
+  border-radius: 5px;
+}
+
+.privateMessage:hover {
+  background-color: rgb(213, 224, 245);
+  color: grey;
+}
+
+.image--comment {
+  width: 45px;
+  height: 45px;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+@font-face {
+  font-family: "Jakarta-Medium";
+  src: local("Jakarta-Medium"),
+  url("./fonts/PlusJakartaSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jakarta-Bold";
+  src: local("Jakarta-Bold"),
+  url("./fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
+}
